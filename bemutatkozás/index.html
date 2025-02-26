@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\styleall.css">
+    <link id="stili" rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="..\images/loghi/icon.png" />
+    <title>Illem Stilus Protokoll</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <ul class="menu">
+          <li><a href="..\index.html"><img src="..\images\loghi\Logo completo con nero.png" class="navlist" href="..\index.html"></a></li>
+          <li><a href="..\index.html" class="navlist">kezdd itt</a></li>
+          <li class="dropdown">
+            <a href="..\etikett/index.html" class="navlist">etikett <i class='bx bx-chevron-down' style="font-size:13px"></i></a>
+            <div class="dropdown-content">
+              <div class="square">
+                <p><a href="..\etikett/index.html">etikett</a></p>
+                <br><p style="margin-top: -5px;" onclick="etikett()"><a href="..\etikett/index.html">tanfolyamok és árak</a></p>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="..\stilus/index.html" class="navlist">stílus<i class='bx bx-chevron-down' style="font-size:13px"></i></a>
+            <div class="dropdown-content">
+              <div class="square">
+                <p><a href="..\stilus/index.html">stílus</a></p>
+                <br><p style="margin-top: -5px;" onclick="stil()"><a href="..\stilus/index.html">tanfolyamok és árak</a></p>
+              </div>
+            </div>
+          </li>
+          <li><a href="..\bemutatkozás/index.html" class="navlist">bemutatkozás</a></li>
+          <li><a href="..\kapcsolat/index.html" class="navlist">kapcsolat</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+      <section class="bem-1">
+        <div class="container">
+          <i class='bx bx-sun' id="sole" style="position: absolute; top: 200px; right: 100px; font-size: 50px;  display: none;" onclick="chiaro()"></i>
+          <i class='bx bx-moon' id="luna" style="position: absolute; top: 200px; right: 100px; font-size: 50px; display: block;" onclick="scuro()"></i>
+          <p id="bem-1-titolo">Az én történetem…</p>
+          <img src="../images/mamme/bem-1.jpg" id="bem-1-img">
+          <div id="bem-1-quadrato" class="reveal">
+            <p id="bem-1-testo1">Üdvözöllek, <span style="font-family: girlboss; font-size: 100px;">örülök</span> hogy itt vagy!</p>
+            <p id="bem-1-testo2"><b>Margaritovits Adél vagyok, közgazdász, protokoll szaktanácsadó, rendezvényszervező, szín-és stílustanácsadó.</b></p><br>
+            <p id="bem-1-testo3">Szentendrén születtem ahol jelenleg is élek. 24 éve dolgozom az üzleti világban, amibe beleszülettem. Amikor kisgyermek koromban édesanyámmal kézen fogva mentem az utcán, és ő köszönt valakinek, lágyan szorított egyet a kezemen, ezzel jelezve, hogy nekem is köszönnöm kell. Erre megkérdeztem: Miért? Ő azt válaszolta, hogy azért, mert így illik. Sok kérdésemre volt ez a válasz, így számomra megkérdőjelezhetetlen volt, hogy mi illik, és mi nem. Szüleim viselkedésükkel, szokásaikkal mutattak példát, ezáltal az évek során belémivódtak az illemszabályok, melyekre mindig különös figyelmet fordítottam. <br><br>Főiskolai tanulmányom során azért választottam a gazdaságdiplomácia szakirányt, mert tökéletesnek tartottam a diplomácia protokolláris világát, ahol semmi nem történik véletlenül, minden megnyilvánulásnak fontos jelentése van. Majd protokoll szaktanácsadó szakon viselkedéskultúrát és megjelenés kultúrát tanultam, mely bővítette ismereteimet az élet számos területére kiterjesztve. Ezután szín- és stílustanácsadó képzést végeztem, hogy elmélyítsem és a gyakorlatba átültethető komplex tudást szerezzek női és férfi megjelenéskultúrából egyaránt. 20 évet éltem Olaszországban a divat fővárosában, ahol közeli rálátásom volt a divatvilágra. Kiemelkedően fonosnak tartom az illedelmes és a kulturált viselkedés jelentőségét mind az üzleti világban mind a magánéletben. Hiszem, hogy az esetek többségében nem abban van a hiba amit mondunk, hanem ahogy mondjuk. Általában nem az észrevételeinkkel van baj, hanem azzal ahogyan kifejezzük azokat. Vallom, hogy ha udvariasan és tisztelettel bánunk egymással, kellemesebbé tehetjük mindennapjainkat, kevesebb bosszúsággal élhetünk. </p>
+          </div>
+          <br><br><br>
+          <img class="revealfreccia"  width="11" height="100" src="..\images\others\freccia.png">
+          <div>
+            <a href="kapcsolat/index.html" class="myButton reveal">KAPSCOLAT</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="bem-2">
+        <div class="container flex" id="bem-2-contenitore">
+          <div>
+            <p id="bem-2-testo1" class="reveal">Végzettségeim:</p>
+            <img src="../images/mamme/bem-2.jpg" id="bem-2-img" style="width: 300px;">
+          </div>
+          <div id="bem-2-quadrato">
+            <p id="bem-2-testo2">
+              <ul>
+                <li>Kereskedelmi közgazdász (gazdaságdiplomácia szakirány) – Szolnoki Főiskola
+                <li>Protokoll szaktanácsadó és rendezvényszervező – Budapesti Metropolitan Egyetem
+                <li>Szín-és stílustanácsadó – Tarcsay Mária színdinamikai szakmérnök képzése</p><br>
+              </ul>
+            <p id="bem-2-testo3">Szakmai szervezeti tagság:</p>
+            <p id="bem-2-testo4">
+              <ul>
+                <li>Magyar Protokollosok Országos Egyesületének tagja
+              </ul>
+              </p>
+          </div>
+        </div>
+      </section>
+
+
+      <footer>
+        <div class="container">
+          <p id="titolofooter">Illem stìlus protokoll<p>
+          <p id="piede">&copy; 2024 Margaritovits Adél – Protokoll szaktanácsadó, rendezvényszervező & szín és stílustanácsadó | Szentendre <br>
+            Készítette: Frigeni Margaritovits Lara</p>
+          <div id="iconcine" style="margin-top: 20px; word-spacing: 10px;">
+            <a href="https://www.facebook.com/profile.php?id=61550689836516"><i class='bx bxl-facebook' style="font-size: 30px;"></i></a>
+            <a href="https://www.instagram.com/margaritovits.adel/"><i class='bx bxl-instagram' style="font-size: 30px;"></i></a>
+          </div>
+        </div>
+      </footer>
+
+    <script src="..\scriptall.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

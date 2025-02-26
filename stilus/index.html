@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\styleall.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="..\images/loghi/icon.png" />
+    <title>Illem Stilus Protokoll</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <ul class="menu">
+          <li><a href="..\index.html"><img src="..\images\loghi\Logo completo con nero.png" class="navlist" href="..\index.html"></a></li>
+          <li><a href="..\index.html" class="navlist">kezdd itt</a></li>
+          <li class="dropdown">
+            <a href="..\etikett/index.html" class="navlist">etikett <i class='bx bx-chevron-down' style="font-size:13px"></i></a>
+            <div class="dropdown-content">
+              <div class="square">
+                <p><a href="..\etikett/index.html">etikett</a></p>
+                <br><p style="margin-top: -5px;" onclick="etikett()"><a href="..\etikett/index.html">tanfolyamok és árak</a></p>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="..\stilus/index.html" class="navlist">stílus<i class='bx bx-chevron-down' style="font-size:13px"></i></a>
+            <div class="dropdown-content">
+              <div class="square">
+                <p><a href="..\stilus/index.html">stílus</a></p>
+                <br><p style="margin-top: -5px;" onclick="stil()"><a href="..\stilus/index.html">tanfolyamok és árak</a></p>
+              </div>
+            </div>
+          </li>
+          <li><a href="..\bemutatkozás/index.html" class="navlist">bemutatkozás</a></li>
+          <li><a href="..\kapcsolat/index.html" class="navlist">kapcsolat</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="stilus-1">
+    <div class="container">
+      <div id="stilus-1-contenitore" class="flex">
+        <div id="stilus-1-quadratobianco"></div>
+        <div id="stilus-1-sinistra">
+          <p id="stilus-1-testo1">Stílus</p>
+          <img class="revealfreccia"  width="11" height="100" src="..\images\others\freccia.png">
+          <div>
+            <a href="#stilus-4" class="myButton reveal">SZOLGÁLTATÁSOK</a>
+          </div>
+        </div>
+        <div id="stilus-1-destra" style="position: relative;">
+          <p id="stilus-1-testo2"><b>A stílus nem csak az öltözködésre vonatkozik</b>, hanem megjelenésünk, viselkedésünk, beszédünk összessége, amivel önmagunkat fejezzük ki a külvilág felé. Rengeteg stílusirányzat létezik, azt kell megtalálnia mindenkinek, amivel saját egyéniségét tudja kifejezni.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stilus-2">
+    <div class="container flex">
+      <div id="stilus-2-immagine">
+        <img src="..\images/mamme/kapcs-2.jpg" style="width: 475px;">
+      </div>
+      <div id="stilus-2-testi">
+        <p id="stilus-2-testo1">Stílustanácsadással</p>
+        <p id="stilus-2-testo2">a segítségedre lehetek ha...</p>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo3">Szeretnéd kialakítani saját stílusodat de nem tudod hol kezjed</p></div>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo4">Elakadtál vagy nehézségeid adódtak</p></div>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo5">Változtatni szeretnél</p></div>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo6">Nem tudod milyen szabásvonalú ruhák állnak jól</p></div>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo7">Javaslatokat szeretnél ruhaválasztásban</p></div>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo8">Bizonytalan vagy abban, hogy mely színek előnyösek számodra</p></div>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo9">Nem tudod hogyan kombináld a színeket, kiegészítőket</p></div>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo10">Nem szeretnél feleslegesen költeni olyan ruhadarabokra, amiket sosem fogsz hordani</p></div>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo11">Nem tudod hogyan fejezhetnéd ki nőességedet vagy férfiasságodat</p></div>
+        <div class="flex"><div class="rarr reveal"><b>&rarr;</b></div><p id="stilus-2-testo12">Bizonytalan vagy az illemszabályokat illetően</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stilus-3">
+    <div class="container flex" id="stilus-3-contenitore">
+      <div id="stilus-3-sinistra">
+        <div id="stilus-3-block1">
+          <p id="stilus-3-block1-titolo"><span>Milyen</span> a jó stílus?</p>
+          <ul>
+            <li>Önazonos</li>
+            <li>Harmónikus</li>
+            <li>Egyedi</li>
+            <li>Korunknak megfelelő</li>
+            <li>Testalkatunk előnyeit emeli ki</li>
+          </ul>
+        </div>
+        <div id="stilus-3-block2">
+          <p id="stilus-3-block2-titolo"><span>Miért jó</span> ha stílusos a megjelenésed?</p>
+          <ul>
+            <li>Magabiztosságot ad</li>
+            <li>Hiteles leszel</li>
+            <li>Emlékezni fognak rád</li>
+            <li>Elismerően fognak rád nézni</li>
+            <li>„A divat változik, a stílus örök” - Coco Chanel</li>
+          </ul>
+        </div>
+      </div>
+      <div id="stilus-3-destra">
+        <img src="..\images/mamme/home-1.jpg" style="width: 400px;">
+      </div>
+    </div>
+  </section>
+    
+  <section class="stilus-4" id="stilus-4">
+    <div class="container">
+      <p id="stilus-4-titolo1">Stílus <span id="stilus-4-titolo2">tanfolyamok és árak:</span></p>
+      <div id="stilus-4-row" class="flex">
+        <div class="stilus-4-box">
+          <div class="stilus-4-text1">Stílustanácsadás</div>
+          <div class="stilus-4-text2">Egyéni és kis csoportos stílustanácsadás. 6 alkalmas tanácsadás keretén belül segítek rátalálni a stílusodra.</div>
+          <div id="stilus-4-button1"><b>120.000,- Ft</b> <br><br> 6 alkalom, 1,5/2 óra alkalmanként, személyre szabva</div>
+          <div class="stilus-4-text3">Nem én fogom megmondani, hogy mit válassz, nem foglak megfosztani az egyéniségedtől, én csak
+            vezetni foglak az úton. Te is aktív résztvevője leszel a folyamatnak, ahol minden rólad szól. A
+            többalkalmas találkozások során, megismertetlek a stílusirányzatokkal, tudni fogod, hogy mi a
+            különbség a stílus és a divat között. Lesz benne egy kis önismeret, ami alapján személyre szabottan
+            közösen alakítjuk ki a stílusodat. Lesznek feladadtok, így neked is dolgoznod kell. Te magad fogod
+            meglátni, hogy mely színek emelik ki szemed színét, teszik ragyogóbbá arcodat, és melyek azok amik
+            sápadt, fáradt hatást keltenek, amelyeket inkább kerülnöd érdemes. Milyen fazonú ruhák előnyösek
+            számodra és mi az ami kerülendő. Megtanulod mik azok az alapdarabok, amik ruhatáradban
+            nélkülözhetetlenek. Nem viszlek vásárolni, nem fogok ráderöltetni olyan ruhadarabokat amikben nem
+            érzed jól magad. Viszont olyan fogódzót adok ami mentén ha elindulsz, Te magyad fogod tudni, hogy
+            mit vegyél meg és mire ne adj ki feleslegesen pénzt. Javaslatot teszek kiegészítőkre is, hogy tökéletes
+            legyen az összhatás. Megtanítom az öltözködés alapjait, hogy mikor mit javasolt viselni, különleges
+            eseményekre is kitérve. Megbeszéljük, milyen helyzetekben hogyan illik viselkedni, mely
+            mozdulatoktól leszel nőies vagy férfias, és mi az amit semmiképp ne tegyél.</div>
+        </div>
+        <div class="stilus-4-box">
+          <div class="stilus-4-text1"><span>Vásárlás Milánóban</span>Basic</div>
+          <div class="stilus-4-text2">Egynapos vásárlás Milánóban. Ha valami másra vágysz...nem a szokásos itthon kapható ruhákra, cipőkre, akkor
+            ez a program neked szól! Vegyél ki egy nap szabit és csapjunk egy görbe napot. Vásárlás, utazás, gasztro élmény.</div>
+          <div id="stilus-4-button2"><br>További információ telefonon vagy <br>e-mailbenbr <br><br></div>
+          <div class="stilus-4-text3">Bármire van szükséged, legyen az ruha, cipő, táska, smink, Olaszországban mindent megvehetsz jó minőségben.
+            Ismerem a boltokat, azokat a bevásárlóközpontokat ahol nem csak az általunk ismert fast fashion márkák
+            találhatók. Felsőfokon beszélem az olasz nyelvet, így mindenben segítek. Tudom mikor hol vannak
+            leértékelések, hova érdemes menni és hová nem célszerű. Teljeskörűen megszervezem az egész napos
+            programot, a repülőjegy foglalástól az autóbérlésig. Végig veled leszek. Reggel megyünk, este jövünk. Egyéni
+            vásárlástól a kislétszámú csoportig, igény szerinti napokon (repülőjárattól függően).</div>
+        </div>
+        <div class="stilus-4-box">
+          <div class="stilus-4-text1"><span>Vásárlás Milánóban</span>Luxury</div>
+          <div class="stilus-4-text2">Luxus, vásárlás, utazás, kultúra, gasztro élmény. Ha olyan brand szerelmese vagy ami nálunk nem kapható akkor jó helyen jársz.</div>
+          <div id="stilus-4-button3"><br>Kérj személyre szabott <br>ajánlatot<br><br></div>
+          <div class="stilus-4-text3">Milánó a divat fővárosa, ahol minden kapható. Oda viszlek ahová Te szeretnéd: Prada, Dior, Chanel, Alberta
+            Ferretti, Armani, Bottega Veneta, Valentino, Salvatore Ferragamo, Cartier, Bulgari, Damiani, Fay, Tiffany &amp;
+            Co., Krizia, Gianfranco Ferrè, Miss Blumarine, Tod’s, Dolce &amp; Gabbana, Roberto Cavalli stb. Felsőfokon
+            beszélem az olasz nyelvet, így mindenben segítek. Tudom hová érdemes menni ahol minden egy helyen van,
+            közel egymáshoz. Teljeskörűen megszervezem az egész napos programot, a repülőjegy foglalástól az
+            autóbérlésig. Végig veled leszek. Reggel megyünk, este jövünk. Egyéni vásárlástól a kislétszámú csoportig, igény
+            szerinti napokon (repülőjárattól függően).</div>
+        </div>
+      </div>
+      <p id="stilus-4-sotto"><span>Keress bizalommal</span>, örömmel segítek kialakítani a Te saját stílusodat!</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p id="titolofooter">Illem stìlus protokoll<p>
+      <p id="piede">&copy; 2024 Margaritovits Adél – Protokoll szaktanácsadó, rendezvényszervező & szín és stílustanácsadó | Szentendre <br>
+        Készítette: Frigeni Margaritovits Lara</p>
+      <div id="iconcine" style="margin-top: 20px; word-spacing: 10px;">
+        <a href="https://www.facebook.com/profile.php?id=61550689836516"><i class='bx bxl-facebook' style="font-size: 30px;"></i></a>
+        <a href="https://www.instagram.com/margaritovits.adel/"><i class='bx bxl-instagram' style="font-size: 30px;"></i></a>
+      </div>
+    </div>
+  </footer>
+
+    <script src="..\scriptall.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

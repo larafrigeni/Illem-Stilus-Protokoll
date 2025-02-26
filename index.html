@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleall.css"> <!-- collegamento a css globale -->
+  <link rel="stylesheet" href="style.css"> <!-- collegamento a css della home -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- collegamento a sito boxicons per iconcine -->
+  <link rel="shortcut icon" href="images/loghi/icon.png" /> <!-- iconcina della scheda tonda -->
+  <title>Illem Stilus Protokoll</title> <!-- titolo scheda -->
+</head>
+<body>
+  <header>
+    <nav> <!-- navbar -->
+      <div class="container"> <!-- contenitore per avere margine nella pagine styleato in styleall -->
+        <ul class="menu"> <!-- lista cose home -->
+          <li><a href="index.html"><img src="images\loghi\Logo completo con nero.png" class="navlist" href="index.html"></a></li> <!-- logo -->
+          <li><a href="index.html" class="navlist">kezdd itt</a></li>
+          <li class="dropdown">
+            <a href="etikett/index.html" class="navlist">etikett <i class='bx bx-chevron-down' style="font-size:13px"></i></a>
+            <div class="dropdown-content">
+              <div class="square">
+                <p><a href="etikett/index.html">etikett</a></p>
+                <br><p style="margin-top: -5px;" onclick="etikett()"><a href="etikett/index.html">tanfolyamok és árak</a></p> <!-- onclick richiama la funzione etikett -->
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="stilus/index.html" class="navlist">stílus<i class='bx bx-chevron-down' style="font-size:13px"></i></a>
+            <div class="dropdown-content">
+              <div class="square">
+                <p><a href="stilus/index.html">stílus</a></p>
+                <br><p style="margin-top: -5px;" onclick="stil()"><a href="stilus/index.html">tanfolyamok és árak</a></p>
+              </div>
+            </div>
+          </li>
+          <li><a href="bemutatkozás/index.html" class="navlist">bemutatkozás</a></li>
+          <li><a href="kapcsolat/index.html" class="navlist">kapcsolat</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+
+  <section class="home-1">
+    <div class="container flex"> <!-- flex per poterlo affiancare -->
+      <div id="home-1-immagini"> <!-- ogni cosa in ogni sezione ha un id e sono in ordine in base a posizione -->
+        <div id="home-1-quadratobianco"></div>
+        <img src="images/mamme/home-1.jpg" style="margin-top: 160px; position: relative; width: 430px;">
+      </div>
+      <div id="home-1-testi" style="position: relative;">
+        <p id="home-1-testo1">Változz előnyödre!</p>
+        <p id="home-1-testo2">„Kifogástalan viselkedés,</p>
+        <p id="home-1-testo2" style="margin-top: -40px;">stílusos megjelenés”</p>
+        <p id="home-1-testo3">Már az első találkozás pillanatában eldönjük valakiről hogy kedveljük-e vagy sem. Elegendő ehhez néhány másodperc vagy akár egy kézfogás. Az első benyomás esetenként sorsdöntő lehet. Függhet ettől munka vagy akár párkapcsolat. Ezért mindenki szeretne pozitív benyomást kelteni másokban. Mivel sosem adatik meg másodszor, hogy első benyomást keltsünk, erre csak egyetlen lehetőségünk van. Ebben tudok segíteni neked. Alkoss pozitív képet magadról illemtudó viselkedéssel, stílusos öltözettel.</p>
+        <img class="revealfreccia" width="11" height="100" src="images\others\freccia.png"> 
+        <div>
+          <a href="#home-2" class="myButton reveal">TANFOLYAMOK</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="home-2" id="home-2">
+    <div class="container">
+      <br><p class="titolo-2"><span style="color: #333333; font-size: 100px; font-family: 'girlboss';">Jó</span> helyen jársz, ha…</p><br> <!-- separi un pezzo di testo mettendolo in uno span per stylarlo in modo diverso -->
+      <ul class="home-2-list">
+        <li>
+          <p class="reveal">1</p>
+          <img class="home-2-img" src="images/others/home-2-a.jpg">
+          <div class="home-2-scritte">Szeretnéd megtudni, hogy milyen helyzetben hogyan illik<br> viselkedni</div>
+          <img class="revealfreccia"  width="11" height="100" src="images\others\freccia.png">
+          <div>
+            <a href="etikett/index.html" class="myButton reveal" >ETIKETT</a>
+          </div>
+        </li>
+        <li>
+          <p class="reveal">2</p>
+          <img class="home-2-img" src="images/others/home-2-b.png">
+          <div class="home-2-scritte"><br>Szeretnél javítani megjelenéseden<br><br></div>
+          <img class="revealfreccia"  width="11" height="100" src="images\others\freccia.png">
+          <div>
+            <a href="stilus/index.html" class="myButton reveal">STÍLUS TANÁCSADÁS</a>
+          </div>
+        </li>
+        <li>
+          <p class="reveal">3</p>
+          <img class="home-2-img" src="images/others/home-2-c.jpg">
+          <div class="home-2-scritte">Érdekel az évszakbesorolás elmélete, a színek világa és az etikett</div>
+          <img class="revealfreccia"  width="11" height="100" src="images\others\freccia.png">
+          <div>
+            <a href="stilus/index.html" class="myButton reveal">SZÍN-ÉS ALAKELEMZÉS</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="home-3">
+    <div class="container flex">
+      <div id="home-3-immagini">
+        <p id="home-3-testo5">Még nem találkoztunk?</p>
+        <div id="home-3-quadratobianco"></div>
+        <img src="images/mamme/home-3.jpg" style="position: relative; width: 400px;">
+      </div>
+      <div id="home-3-testi" style="z-index: 2;">
+        <div style="text-align: left;">
+          <p id="home-3-testo1">Margaritovits Adél</p>
+          <p id="home-3-testo2" style="margin-top: 5px; white-space: nowrap;">Protokoll szaktanácsadó, rendezvényszervező &</p>
+          <p id="home-3-testo2" style="margin-top: -15px;">Szín és stílustanácsadó</p>
+          <p id="home-3-testo3" style="margin-top: 20px;">Üdvözöllek a világomban, ahol minden az illemről és a stílusos, kulturált megjelenésről szól!</p>
+          <p id="home-3-testo4" style="margin-top: 20px;">Meggyőződésem, hogy minden embert a kommunikáció mellett a viselkedése és megjelenése határoz meg. Ezek alapján ítélünk meg egy embert, ezek alapján alakul ki bennünk az első benyomás a másikról. A mindennapi életünket a társas érintkezések töltik ki. Ezáltal viselkedésünk kihat embertársainkra, meghatározza mindennapjainkat legyen szó hivatalos kapcsolatokról, társasági vagy magánkapcsolatokról, illetve családi kapcsolatokról. Kiemelkedően fonosnak tartom az illem és a kulturált öltözködés jelentőségét, mert ha ismerjük és betartjuk az illemszabályokat, magabiztosabban helytállunk az élet minden területén. Nem az egyéniségedet fogom átalakítani. Megismertetlek az illemszabályokkal, hogy tudd mikor hogyan illik viselkedni, vagy megmutatom az öltözködés szabályain keresztül, hogy mi a legelőnyösebb viselet számodra. </p>
+        </div>
+        <img class="revealfreccia"  width="11" height="100" src="images\others\freccia.png">
+        <div>
+          <a href="bemutatkozás/index.html" class="myButton reveal">BEMUTATKOZÁS</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-4">
+    <div class="container">
+      <div id="home-4-scritta">
+        <p><span style="font-family: girlboss; font-size: 100px;">Rólam</span><span style="font-size: 30px;"> mondták</span></p>
+      </div>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides">
+          <q>Nagyon jó éreztem magam érdekes-közvetlen előadás volt.Folyamatosan fenntartotta a figyelmemet! Tetszettek az életszerű <br> példák, történetek. Nagyszerű volt, Köszönöm az új információkat!</q>
+          <p class="author">- K. Orsi</p>
+        </div>
+        
+        <div class="mySlides">
+          <q>Szuper, jól felépített előadás, nagyon kedves előadó, sok hasznos információt kaptam! <br> Köszönöm!</q>
+          <p class="author">- K. Éva</p>
+        </div>
+        
+        <div class="mySlides">
+          <q>Érdekes előadás, nagyon jól éreztem magam. Végig az előadáson volt a figyelmem. Voltak olyan dolgok amiket már tudtam, de ezekben is megerősítést kaptam, illetve voltak, amiket most hallottam először.</q>
+          <p class="author">- V. Ágnes</p>
+        </div>
+
+        <div class="mySlides">
+          <q>Az előadásmód hibátlan volt, kellemes, közvetlen. Jól éreztem magam, szívesen részt vennék az összes tanfolyamon. <br> Nagyon köszönöm!</q>
+          <p class="author">- K. Jolán</p>
+        </div>
+
+        <div class="mySlides">
+          <q>Sok új információval bővítettem az eddigi ismereteimet, <br> a feltett kérdéseimre is kielégítő válaszokat kaptam. </q>
+          <p class="author">- K. Rita</p>
+        </div>
+
+        <div class="mySlides">
+          <q>Nagyon jól éreztem magam az előadáson, sok hasznos információval lettem gazdagabb, amiket be tudok építeni a <br> mindennapi életembe is. Szívesen meghallgatnám a többi témáról szóló előadásokat is</q>
+          <p class="author">- Z. Beatrix</p>
+        </div>
+
+        <div class="mySlides">
+          <q>Rendkívül hasznosnak találtam a tanfolyamot, alkalmazni fogom a hallottakat.<br> Bájos előadó vagy, élveztem minden percét.</q>
+          <p class="author">- M. Eszter</p>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+          <span class="dot" onclick="currentSlide(7)"></span> 
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p id="titolofooter">Illem stìlus protokoll<p>
+      <p id="piede">&copy; 2024 Margaritovits Adél – Protokoll szaktanácsadó, rendezvényszervező & szín és stílustanácsadó | Szentendre <br>
+        Készítette: Frigeni Margaritovits Lara</p>
+      <div id="iconcine" style="margin-top: 20px; word-spacing: 10px;">
+        <a href="https://www.facebook.com/profile.php?id=61550689836516"><i class='bx bxl-facebook' style="font-size: 30px;"></i></a>
+        <a href="https://www.instagram.com/margaritovits.adel/"><i class='bx bxl-instagram' style="font-size: 30px;"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scriptall.js"></script> <!-- collegamento a javascript -->
+  <script src="script.js"></script>
+</body>
+</html>

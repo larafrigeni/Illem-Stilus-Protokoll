@@ -1,0 +1,113 @@
+/* -----KAPCS 1----- */
+
+.kapcs-1 {
+    text-align: center;
+    padding-bottom: 250px;
+    background-color: #D5DFE3;
+  }
+  
+  
+#kapcs-1-quadratobianco {
+    position: absolute;
+    width: 406px;
+    height: 408px;
+    background-color: white;
+    margin-top: 75px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  
+#kapcs-1-testi {
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+
+#kapcs-1-testo1 {
+    font-size: 82px;
+    font-family: 'girlboss';
+    margin-top: 30px;
+  }
+  
+#kapcs-1-testo2 {
+    font-size: 17px;
+    margin-top: 40px;
+  }
+  
+
+
+/* -----KAPCS 2----- */
+
+.kapcs-2 {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#kapcs-2-contenitore {
+  justify-content: center;
+}
+
+#kapcs-2-testi {
+    margin-left: 50px;
+}
+
+#kapcs-2-testo1 {
+    font-family: 'Bellefair',Georgia,"Times New Roman",serif;
+    font-size: 45px;
+    margin-bottom: -50px;
+}
+
+#kapcs-2-testo2 {
+    font-family: "girlboss";
+    font-size: 100px;
+    margin-bottom: -10px;
+}
+
+#kapcs-2-testo3 {
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+#kapcs-2-testo4 {
+    margin-top: 6px;
+}
+
+#kapcs-2-testo5 {
+    margin-top: 6px;
+}
+
+#kapcs-2-testo6 {
+    margin-top: 6px;
+}
+
+#kapsc-2-icone {
+  margin-top: 5px;
+  font-size: 15px;
+  margin-right: 5px;
+  background-color: #22415d;
+  color: white;
+  border-radius: 100%;
+  padding: 6px;
+}
+
+
+/* -----KAPCS 3----- */
+
+.kapcs-3 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-color: #f6f1ed;
+}
+
+
+#kapcs-3-immagini {
+  justify-content: center;
+}
+
+#kapcs-3-immagini img{
+  width: 350px;
+  margin: 0 20px;
+}

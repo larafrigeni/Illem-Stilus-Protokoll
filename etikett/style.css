@@ -1,0 +1,402 @@
+/* -----ETIKETT 1----- */
+
+.etikett-1 {
+    background-color: #D5DFE3;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 180px;
+}
+
+#etikett-1-titolo {
+    font-family: "girlboss";
+    font-size: 80px;
+    position: relative;
+}
+
+#etikett-1-testo {
+    margin-top: 25px;
+    font-size: 17px;
+    position: relative;
+}
+
+#etikett-1-quadratobianco {
+    top: 430px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 90%;
+    height: 320px;
+    background-color: white;
+}
+
+/* -----ETIKETT 2----- */
+
+.etikett-2 {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#etikett-2-testi {
+    margin-left: 50px;
+}
+
+#etikett-2-testo1 {
+    font-family: 'Bellefair',Georgia,"Times New Roman",serif;
+    font-size: 45px;
+    margin-bottom: -50px;
+}
+
+#etikett-2-testo2 {
+    font-family: "girlboss";
+    font-size: 100px;
+    margin-bottom: -10px;
+}
+
+#etikett-2-testo3 {
+    margin-top: 6px;
+}
+
+#etikett-2-testo4 {
+    margin-top: 6px;
+}
+
+#etikett-2-testo5 {
+    margin-top: 6px;
+}
+
+#etikett-2-testo6 {
+    margin-top: 6px;
+}
+
+#etikett-2-testo7 {
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+#etikett-2-testo8 {
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+#etikett-2-testo9 {
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+#etikett-2-testo10 {
+    margin-top: 6px;
+}
+
+/* -----ETIKETT 3----- */
+
+.etikett-3 {
+    background-color: #f6f1ed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#etikett-3-titolo1 {
+    font-size: 45px;
+    font-family: 'Bellefair',Georgia,"Times New Roman",serif;
+    padding-top: 60px;
+}
+
+#etikett-3-titolo2 {
+    margin-left: 15px;
+    font-size: 100px;
+    font-family: "girlboss";
+}
+
+.etikett-3-box {
+    margin: 10px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:50vw;
+    height: 130px;   
+    transition: background-color  0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etikett-3-box:hover {
+    background-color: #D5DFE3;
+}
+
+#etikett-3-row2 {
+    padding-bottom: 90px;
+}
+
+/* -----ETIKETTT 4----- */
+
+.etikett-4 {
+    margin-bottom: 160px;
+}
+
+#etikett-4-titolo1 {
+    text-align: center;
+    font-family: "girlboss";
+    font-size: 100px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#etikett-4-titolo2 {
+    font-family: 'Bellefair',Georgia,"Times New Roman",serif;
+    font-size: 45px;
+}
+
+.etikett-4-box {
+    background-color: #D5DFE3;
+    margin-bottom: 50px;
+    padding: 70px 80px 20px;
+}
+
+#etikett-4-titolino {
+    font-family: 'Bellefair',Georgia,"Times New Roman",serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#etikett-4-numero {
+    position: absolute;
+    font-size: 90px;
+    margin-top: -80px;
+    margin-left: -30px;
+    color: white;
+    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+}
+
+#etikett-4-content {
+    margin-bottom: 23px;
+}
+
+.etikett-4-myButton {
+    box-shadow: 8px 10px 12px 0px rgb(174, 174, 174);
+    background-color:#22415d;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding:17px 41px;
+    text-decoration:none;
+    margin-top: 0px;
+    transition: background-color 250ms;
+  }
+
+  .etikett-4-myButton:active {
+    position:relative;
+    top:1px;
+  }
+
+#etikett-4-more1 {
+    display: none;
+}
+
+#etikett-4-more2 {
+    display: none;
+}
+
+#etikett-4-more3 {
+    display: none;
+}
+
+#etikett-4-more4 {
+    display: none;
+}
+
+#etikett-4-more5 {
+    display: none;
+}
+
+#etikett-4-more6 {
+    display: none;
+}
+
+#etikett-4-more7 {
+    display: none;
+}
+
+#etikett-4-prezzo {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+#etikett-4-pulsante {
+    text-align: center;
+}
+
+#etikett-4-chevron-down1 {
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+}
+
+#etikett-4-chevron-down1:hover {
+    color: white;
+}
+
+#etikett-4-chevron-up1 {
+    margin-bottom: 4px;
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+    display: none;
+}
+
+#etikett-4-chevron-up1:hover {
+    color: white;
+}
+
+#etikett-4-chevron-down2 {
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+}
+
+#etikett-4-chevron-down2:hover {
+    color: white;
+}
+
+#etikett-4-chevron-up2 {
+    margin-bottom: 4px;
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+    display: none;
+}
+
+#etikett-4-chevron-up2:hover {
+    color: white;
+}
+
+#etikett-4-chevron-down3 {
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+}
+
+#etikett-4-chevron-down3:hover {
+    color: white;
+}
+
+#etikett-4-chevron-up3 {
+    margin-bottom: 4px;
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+    display: none;
+}
+
+#etikett-4-chevron-up3:hover {
+    color: white;
+}
+
+#etikett-4-chevron-down4 {
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+}
+
+#etikett-4-chevron-down4:hover {
+    color: white;
+}
+
+#etikett-4-chevron-up4 {
+    margin-bottom: 4px;
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+    display: none;
+}
+
+#etikett-4-chevron-up4:hover {
+    color: white;
+}
+
+#etikett-4-chevron-down5 {
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+}
+
+#etikett-4-chevron-down5:hover {
+    color: white;
+}
+
+#etikett-4-chevron-up5 {
+    margin-bottom: 4px;
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+    display: none;
+}
+
+#etikett-4-chevron-up5:hover {
+    color: white;
+}
+
+#etikett-4-chevron-down6 {
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+}
+
+#etikett-4-chevron-down6:hover {
+    color: white;
+}
+
+#etikett-4-chevron-up6 {
+    margin-bottom: 4px;
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+    display: none;
+}
+
+#etikett-4-chevron-up6:hover {
+    color: white;
+}
+
+#etikett-4-chevron-down7 {
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+}
+
+#etikett-4-chevron-down7:hover {
+    color: white;
+}
+
+#etikett-4-chevron-up7 {
+    margin-bottom: 4px;
+    margin-top: 20px;
+    font-size: 50px;
+    transition: color 0.2s;
+    width: 100%;
+    display: none;
+}
+
+#etikett-4-chevron-up7:hover {
+    color: white;
+}
+

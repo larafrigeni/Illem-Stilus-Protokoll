@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\styleall.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="..\images/loghi/icon.png" />
+    <title>Illem Stilus Protokoll</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <ul class="menu">
+          <li><a href="..\index.html"><img src="..\images\loghi\Logo completo con nero.png" class="navlist" href="..\index.html"></a></li>
+          <li><a href="..\index.html" class="navlist">kezdd itt</a></li>
+          <li class="dropdown">
+            <a href="..\etikett/index.html" class="navlist">etikett <i class='bx bx-chevron-down' style="font-size:13px"></i></a>
+            <div class="dropdown-content">
+              <div class="square">
+                <p><a href="..\etikett/index.html">etikett</a></p>
+                <br><p style="margin-top: -5px;" onclick="etikett()"><a href="..\etikett/index.html">tanfolyamok és árak</a></p>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="..\stilus/index.html" class="navlist">stílus<i class='bx bx-chevron-down' style="font-size:13px"></i></a>
+            <div class="dropdown-content">
+              <div class="square">
+                <p><a href="..\stilus/index.html">stílus</a></p>
+                <br><p style="margin-top: -5px;" onclick="stil()"><a href="..\stilus/index.html">tanfolyamok és árak</a></p>
+              </div>
+            </div>
+          </li>
+          <li><a href="..\bemutatkozás/index.html" class="navlist">bemutatkozás</a></li>
+          <li><a href="..\kapcsolat/index.html" class="navlist">kapcsolat</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+      <section class="kapcs-1">
+        <div class="container flex">
+          <div id="kapcs-1-quadratobianco"></div>
+          <div id="kapcs-1-testi" style="position: relative;">
+            <p id="kapcs-1-testo1">Kapcsolat</p>
+            <p id="kapcs-1-testo2">“Ha elégedetten akarunk élni, az eleganciát keressük, ne a fényűzést, és a kifinomultságot, ne a
+              divatot; legyünk érdemesek, ne tiszteletreméltóak, és jómódúak, ne gazdagok; tanuljunk keményen,
+              gondolkodjunk csendben, beszéljünk halkan, cselekedjünk őszintén.”
+              <br><br><i>William Ellery Channing</i></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="kapcs-2">
+        <div class="container flex" id="kapcs-2-contenitore">
+          <div id="kapcs-2-immagine">  
+            <img src="../images/mamme/kapcs-2.jpg" style="width: 400px;">
+          </div>
+          <div id="kapcs-2-testi">
+            <p id="kapcs-2-testo1">Érdeklődés,</p>
+            <p id="kapcs-2-testo2">ajánlatkérés</p>
+            <div id="kapcs-2-testo3">Nincs rossz kérdés, keress bátran és segítek. Telefonon és e-mailen is állok rendelkezésedre:</div>
+            <div class="flex reveal"><i class='bx bxs-phone' id="kapsc-2-icone"></i><p id="kapcs-2-testo4">+36 30 6808-835</p></div>
+            <div class="flex reveal" style="margin-top: 10px; margin-bottom: 10px;"><i class='bx bx-envelope' id="kapsc-2-icone"></i><p id="kapcs-2-testo5">illemstilusprotokoll@gmail.com</p></div>
+            <div class="flex reveal"><i class='bx bxs-map' id="kapsc-2-icone"></i><p id="kapcs-2-testo6">2000 Szentendre, Bolgár u. 8/A</p></div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="kapcs-3">
+        <div class="container">
+          <p style="font-family: 'Bellefair',Georgia,'Times New Roman',serif; font-size: 45px;">Ahol   <span style="font-family: girlboss; font-size: 100px;">megtalálhatsz</span></p>
+          <div id="kapcs-3-immagini" class="flex">
+            <a href="images/others/kapcs-3-a.jpg"><img src="../images/others/kapcs-3-a.jpg"></a>
+            <a href="images/others/kapcs-3-b.jpg"><img src="../images/others/kapcs-3-b.jpg"></a>
+            <a href="images/others/kapcs-3-c.jpg"><img src="../images/others/kapcs-3-c.jpg"></a>
+            <a href="images/others/kapcs-3-d.jpg"><img src="../images/others/kapcs-3-d.jpg"></a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <p id="titolofooter">Illem stìlus protokoll<p>
+          <p id="piede">&copy; 2024 Margaritovits Adél – Protokoll szaktanácsadó, rendezvényszervező & szín és stílustanácsadó | Szentendre <br>
+            Készítette: Frigeni Margaritovits Lara</p>
+          <div id="iconcine" style="margin-top: 20px; word-spacing: 10px;">
+            <a href="https://www.facebook.com/profile.php?id=61550689836516"><i class='bx bxl-facebook' style="font-size: 30px;"></i></a>
+            <a href="https://www.instagram.com/margaritovits.adel/"><i class='bx bxl-instagram' style="font-size: 30px;"></i></a>
+          </div>
+        </div>
+      </footer>
+
+    <script src="..\scriptall.js"></script>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</body>
+</html>

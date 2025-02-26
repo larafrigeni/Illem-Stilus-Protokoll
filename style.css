@@ -1,0 +1,211 @@
+
+/* -----HOME 1----- */
+
+.home-1 {
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #D5DFE3;
+}
+
+#home-1-immagini {
+  margin-left: 90px;
+  margin-right: 50px;
+}
+
+#home-1-quadratobianco {
+  position: absolute;
+  width: 406px;
+  height: 408px;
+  background-color: white;
+  margin-left: 275px;
+  margin-top: 75px;
+}
+
+#home-1-testi {
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+
+#home-1-testo1 {
+  font-size: 40px;
+  font-family: 'Bellefair',Georgia,"Times New Roman",serif;
+}
+
+#home-1-testo2 {
+  font-size: 82px;
+  font-family: "girlboss";
+}
+
+#home-1-testo3 {
+  font-size: 17px;
+}
+
+/* -----HOME 2----- */
+
+.home-2 {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.home-2 .titolo-2 {
+  font-family: 'Bellefair',Georgia,"Times New Roman",serif;
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+
+.home-2-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.home-2-list li {
+  margin: 0 20px;
+  max-width: 300px;
+}
+
+.home-2-img {
+  width: 100%;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+
+.home-2-list .home-2-scritte {
+  background-color: #f6f1ed;
+  padding: 10px;
+}
+
+.home-2-list li p {
+  position: absolute;
+  color: #22415d;
+  font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+  font-size: 120px;
+  margin-top: -120px;
+  margin-left: 10px;
+}
+
+
+/* -----HOME 3----- */
+
+.home-3 {
+  padding-bottom: 50px;
+  background-color: #f6f1ed;
+  text-align: center;
+}
+
+#home-3-quadratobianco {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  margin-left: 270px;
+  margin-top: -50px;
+}
+
+#home-3-testi {
+  margin-left: 100px;
+}
+
+#home-3-testo1 {
+  font-family: 'Bellefair',Georgia,"Times New Roman",serif;
+  font-size: 60px;
+  letter-spacing: 6px;
+}
+
+#home-3-testo2 {
+  font-family: 'Bellefair',Georgia,"Times New Roman",serif;
+  font-size: 40px;
+}
+
+#home-3-testo3 {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+
+#home-3-testo5 {
+  writing-mode: vertical-lr;
+  white-space: nowrap;
+  transform: rotateZ(180deg);
+  font-size: 62px;
+  font-family: 'girlboss';
+  position: absolute;
+  height: inherit;
+  margin-left: -70px;
+  z-index: 1;
+}
+
+.home-3 .flex {
+  padding-top: 100px;
+}
+
+
+/* -----HOME 4---- */
+
+.home-4 {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.home-4 #home-4-scritta {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.home-4 .slideshow-container {
+  position: relative;
+}
+
+
+.home-4 .prev, .home-4 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #D5DFE3;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.home-4 .prev {
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.home-4 .next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.home-4 .prev:hover, .home-4 .next:hover {
+  color: #22415d;
+}
+
+.home-4 .dot-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-4 .dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #D5DFE3;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.home-4 .active, .home-4 .dot:hover {
+background-color: #22415d;
+}
+
